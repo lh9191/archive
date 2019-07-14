@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 함수 선언문
+    // console.log(plus(2));    :   //인식한다
+    function plus(i) {
+        return i+i;
+    }
+
+    // 함수 정의 표현식
+    // console.log(a);   :   //인식 못한다
+    var a = function (j) {
+        return j+j;
+    }
+    // console.log(a(3));  //인식한다
+
+    // console.log(b);  :   //인식 못한다    :   변수의 hoisting은 함수 안에서만 가능하다
+    var b = "3"
+
+    // 변순 선언 끌어올림   :   실패
+    function fExapmleFaleHoisting() {
+        return  f2(innerVar);
+        function f2(i) {
+            return i * i;
+        }
+        var innerVar = 2;     //인식 못한다  :   변수 할당은 hoisting 되지 않는다.
+    }
+
+    // 끌어 올려 지는 경우
+    var scope = "global";
+    function fExampleHoisting() {
+        console.log(scope);
+        var scope = "local";
+        console.log(scope);
+    }
+</script>
+</body>
+</html>

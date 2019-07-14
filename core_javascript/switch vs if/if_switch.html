@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.js"
+            integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<script>
+    //switch 문
+    var switchCalculator = function (num, operator) {
+        switch (operator) {
+            case "plus":
+                num = num + num
+                break;
+            case "minus":
+                num = num - num
+                break;
+            case "multiple":
+                num = num * num
+                break;
+        }
+        return num;
+    }
+    console.log("switch문 : " + switchCalculator(10, "plus"));
+
+    //if 문
+    var ifCirculator = function (num, operator) {
+        if (operator === "plus") {
+            return num = num + num
+        } else if (operator === "minus") {
+            return num = num - num
+        } else if (operator === "multiple") {
+            return num = num * num
+        }
+    }
+    console.log("if문 :" + ifCirculator(10, "plus"));
+
+    //switch 문 2 : switch 문은 break
+    var vendingMachine = function (beverage1,beverage2, cost) {
+        switch (beverage1 , beverage2) {
+            case "fanta":
+                cost = cost - 500;
+                break
+            case "sprite":
+                cost = cost - 600;
+                break
+            case "coke":
+                cost = cost - 700;
+                break
+            case "oranc":
+                cost = cost - 800;
+                break
+            case "cancoffee":
+            case "vita500":
+                cost = cost - 700;
+                break
+        }
+        return cost;
+    }
+    console.log("거스름돈 = " + vendingMachine("vita500","sprite", 2000) +"원");
+
+
+
+    var vendingMachine2 = function (beverage , cost) {
+        if(beverage === "콜라"){
+            exchange = cost - 500;
+        }else if(beverage === "밀키스" || "솔의눈"){
+            exchange = cost - 1000;
+        }else if(beverage === "사이다"){
+            exchange = cost - 500;
+        }else if(beverage === "주스"){
+            exchange = cost - 500;
+        }else if(beverage === "커피"){
+            exchange = cost - 500;
+        }else if(beverage === "물"){
+            exchange = cost - 500;
+        }else if(beverage === "맥콜"){
+            exchange = cost - 500;
+        }
+        return exchange;
+    }
+    console.log("거스럼돈 = " + vendingMachine2("밀키스",10000) + "원");
+
+</script>
+</body>
+</html>

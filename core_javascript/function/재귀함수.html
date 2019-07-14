@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var num = 0;
+    function textFnc(){
+        num++;
+        console.log(num,"<br/>");
+        if(num==10)return;
+
+        textFnc();
+    }
+    textFnc()
+</script>
+</body>
+</html>

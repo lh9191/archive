@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var fnc = function (i) {
+        var plus =  i+i;
+        function multiple(j) {
+            return  j * j;
+        }
+        return multiple(plus)
+    }
+    console.log(fnc(2));
+    //함수는 객체이기 때문에 property 지정가능
+    fnc.fcnProperty = 1;
+    //함수는 객체이기 때문에 method 지정가능
+    fnc.fncMethod = function (j) {
+      return  j*j;
+    }
+
+</script>
+</body>
+</html>
