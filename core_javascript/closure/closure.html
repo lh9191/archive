@@ -8,9 +8,9 @@
 <script>
     var add = (function () {
         var counter = 0;
+        //왜 add함수 호출 되었을 때 변수초기화실행 되지 않고 바로 리턴만 실행되는가?
         return function () {counter += 1; return counter}
     })();
-
     add();
     add();
     add();
