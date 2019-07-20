@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var add = (function () {
+        var counter = 0;
+        return function () {counter += 1; return counter}
+    })();
+
+    add();
+    add();
+    add();
+</script>
+</body>
+</html>
