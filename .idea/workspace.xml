@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="724bc6f2-2dd4-40cc-9ded-12f09ad2fcf8" name="Default Changelist" comment="리파지토리 개설">
+    <list default="true" id="724bc6f2-2dd4-40cc-9ded-12f09ad2fcf8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new folder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/자바스크립트 개념 정리 - 복사본.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/자바스크립트 개념 정리.docx" beforeDir="false" afterPath="$PROJECT_DIR$/자바스크립트 개념 정리.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,7 +19,17 @@
     <favorites_list name="코딩연습" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core_javascript/closure/closure.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,6 +69,7 @@
         <option value="$PROJECT_DIR$/core_javascript/function/함수객체의 메서드.html" />
         <option value="$PROJECT_DIR$/core_javascript/function/함수정의.html" />
         <option value="$PROJECT_DIR$/core_javascript/function/함수선언문과 함수정의표현식의 hoisting 비교.html" />
+        <option value="$PROJECT_DIR$/core_javascript/closure/closure.html" />
       </list>
     </option>
   </component>
@@ -86,11 +95,6 @@
             <path>
               <item name="코딩연습" type="b2602c69:ProjectViewProjectNode" />
               <item name="코딩연습" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="코딩연습" type="b2602c69:ProjectViewProjectNode" />
-              <item name="코딩연습" type="462c0819:PsiDirectoryNode" />
-              <item name="자바스크립트 개론" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,7 +152,7 @@
       <workItem from="1563603330490" duration="982000" />
       <workItem from="1563607243790" duration="483000" />
       <workItem from="1563607734933" duration="500000" />
-      <workItem from="1563640153658" duration="693000" />
+      <workItem from="1563640153658" duration="2135000" />
     </task>
     <task id="LOCAL-00001" summary="리파지토리 개설">
       <created>1563603471712</created>
@@ -164,11 +168,39 @@
       <option name="project" value="LOCAL" />
       <updated>1563607995218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="리파지토리 개설">
+      <created>1563640898726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563640898726</updated>
+    </task>
+    <task id="LOCAL-00004" summary="워드파일 수정">
+      <created>1563640951870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563640951870</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <created>1563641050016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563641050016</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit">
+      <created>1563641678387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563641678387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47710000" />
+    <option name="totallyTimeSpent" value="49152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,9 +212,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837488" visible="true" weight="0.24124256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837488" visible="true" weight="0.1923077" />
       <window_info id="Structure" order="1" sideWeight="0.5016251" side_tool="true" weight="0.10642782" />
       <window_info id="Favorites" order="2" sideWeight="0.50141644" side_tool="true" weight="1.0" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,7 +225,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3531915" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3177874" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32907802" />
@@ -248,7 +280,9 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="리파지토리 개설" />
-    <option name="LAST_COMMIT_MESSAGE" value="리파지토리 개설" />
+    <MESSAGE value="워드파일 수정" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/object.html" />
@@ -330,6 +364,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/new folder">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_javascript/closure/closure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
